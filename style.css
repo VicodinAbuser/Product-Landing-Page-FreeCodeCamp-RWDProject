@@ -193,7 +193,7 @@ footer {
     color: #6a197d;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     header {
         height: 90px;
     }
@@ -219,7 +219,36 @@ footer {
 
     }
 
+    #bat-video {
+        width: 90%;
+        height: 250px;
+    }
+
     .bats {
         margin: 20px auto;
     }
+
+    input {
+        height: 50px;
+        width: 80%;
+        margin: auto;
+        border: 2px solid black;
+    }
+
+    #submit {
+        height: 56px;
+        width: 80.5%;
+        background-color: black;
+        color: white;
+        font-size: 1em;
+    }
+    .newsletter-form {
+        width: 90%;
+        margin: 100px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+    }
+
 }
