@@ -2,7 +2,11 @@ body {
     text-align: center;
     margin: 0;
     background-color: #e5e5e5;
-    background-image: url('https://i.pinimg.com/originals/e8/f0/69/e8f0697f338f6bfb8740a34390e806ab.jpg');
+    /*background-image: url('https://i.pinimg.com/originals/e8/f0/69/e8f0697f338f6bfb8740a34390e806ab.jpg');
+    background-image: url('https://images.unsplash.com/photo-1585822754398-04873d4e1f50?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1220&q=80');
+    background-image: url('https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1167&q=80');
+    background-image: url('https://images.unsplash.com/photo-1531415074968-036ba1b575da?ixlib=rb-1.2.1&auto=format&fit=crop&w=1047&q=80');*/
+    background-image: url('https://thumbs.dreamstime.com/b/cricket-bat-ball-green-grass-cricket-bat-ball-green-grass-130662432.jpg');
     background-size: cover;
     font-family: 'Rubik', sans-serif;
 
@@ -64,16 +68,21 @@ nav {
 #premiumpng {
     width: 120px;
     height: 120px;
+    border-radius: 40%;
 }
 
 #shippingpng {
     width: 120px;
     height: 120px;
+    border-radius: 40%;
+
 }
 
 #qualitypng {
     width: 120px;
     height: 120px;
+    border-radius: 40%;
+
 }
 
 #header-img {
@@ -96,6 +105,13 @@ nav {
 .video {
     margin: 100px auto 150px;
     text-align: center;
+    border: none;
+}
+
+#bat-video {
+    border: none;
+    border-radius: 2px;
+    box-shadow: 1px 1px 10px 2px black;
 }
 
 #bat-heading {
@@ -116,7 +132,8 @@ nav {
     width: 300px;
     height: 400px;
     background-color: #ddf3f5;
-    border: 1px solid grey;
+    border: 0px solid grey;
+    border-radius: 2px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -136,6 +153,7 @@ nav {
     font-size: 1em;
     background-color: #2fc4b2;
     border: none;
+    border-radius: 1px;
     box-shadow: 2px 2px 10px 1px grey;
 }
 
